@@ -3,7 +3,8 @@
 }
 
 body {
-    font: 14px Segoe UI;
+    font-family: 'Segoe UI';
+    font: 14px;
     background-color: #fff;
 }
 
@@ -197,12 +198,13 @@ body {
 .EnterField {
     margin-left: 20px;
     text-align: center;
+    background-color: #ffa23f;
     border: 2px solid rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 7px 15px;
     color: rgb(255, 255, 255);
-    padding-right: 90px;
-    font-size: 10px;
+    padding-right: 30px;
+    font-size: 14px;
 }
 
 .color {
@@ -230,7 +232,6 @@ body {
 }
 
 .background-3 {
-    background: #fbfbfb;
     height: 100px;
     margin-left: 5px;
     margin-right: 5px;
@@ -372,19 +373,19 @@ body {
     width: 100%; 
 }
 .bg-1{
-    background: #FFF url("../IMG/Content/Консультанты/Иван Алексеев менеджер по продажам.jpg") no-repeat center top / cover ; 
+    background: #FFF url("../IMG/Иван Алексеев менеджер по продажам.jpg") no-repeat center top / cover ; 
     display: flex; 
     height: 140px; 
     width: 140px;
 }
 .bg-2{
-    background: #FFF url("../IMG/Content/Консультанты/Галина Петрова менеджер по продажам.jpg") no-repeat center top / cover ; 
+    background: #FFF url("../IMG/Галина Петрова менеджер по продажам.jpg") no-repeat center top / cover ; 
     display: flex; 
     height: 140px; 
     width: 140px;
 }
 .bg-3{
-    background: #FFF url("../IMG/Content/Консультанты/Светлана Астахова менеджер по продажам.jpg") no-repeat center top / cover ; 
+    background: #FFF url("../IMG/Светлана Астахова менеджер по продажам.jpg") no-repeat center top / cover ; 
     display: flex; 
     height: 140px; 
     width: 140px;
@@ -410,3 +411,149 @@ body {
     margin-top: 4px;
     font-size: 10px; 
 }
+
+/*Секция 7*/
+.section-7{
+    font-size: 23px;
+    margin: auto; 
+    display: flex;
+    margin-top: 45px;
+    max-width: 1000px; 
+    margin-bottom: 30px;
+}
+.brands{
+    margin: auto; 
+    font-size: 40px;
+    display: flex; 
+    overflow-x: auto;
+    background-color: #f8f8f8;
+}
+.brands-text {
+    padding: 0px 30px; 
+    color: rgb(170, 170, 170);
+    margin: auto; 
+    display: flex; 
+    font-weight: 650;
+    width: 100%;  
+    align-items: center;
+}
+.s-info{
+    margin: auto; 
+    display: flex;
+    margin-top: 45px;
+    max-width: 1000px; 
+    margin-bottom: 30px;
+}
+.bg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../img/1.jpg") no-repeat center top / cover ; 
+    display: flex; 
+    height: 200px; 
+    width: 200px;
+}
+.bg2{
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../img/2.jpg") no-repeat center top / cover ; 
+    margin-left: 66px;
+    display: flex; 
+    height: 200px; 
+    width: 200px;
+}
+.bg3{
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../img/3.jpg") no-repeat center top / cover ; 
+    margin-left: 66px;
+    display: flex; 
+    height: 200px; 
+    width: 200px;
+}
+.bg4{
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../img/4.jpg") no-repeat center top / cover ; 
+    margin-left: 66px;
+    display: flex; 
+    height: 200px; 
+    width: 200px;
+}
+.s-info a{
+    text-decoration: none;
+}
+.text-info{
+    margin: auto; 
+    text-align: center;
+    color: #ffffff;
+}
+
+/*footer*/
+.footer{
+    width: 1000%; 
+    margin: auto; 
+    display: flex; 
+    padding: 10px 0px; 
+    max-width: 1000px; 
+    justify-content: space-between; 
+}
+.right{
+    display: flex; 
+    justify-content: space-between;  
+}
+.background-5{
+    background: #f7f7f7 ;
+    height: 300px; 
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    margin-top: 100px;
+}
+.footer-menu-link {
+    color: #000;
+    text-decoration: none;
+}
+.footer-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.paragraph-1{
+    margin-left: 35px;
+}
+.footer-list{
+    margin-top: 25px;
+}
+.footer-name{
+    font-weight: bold;
+}
+.year{
+    margin-top: 100px;
+}
+
+.linked:hover{
+    background-color: #ffa23f;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #ffa23f;
+}
+
+.linked1:hover{
+    background-color: #ffffff00;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid #ffa23f;
+}
+
+.linked2:hover{
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+    border-color: #ffa23f;
+}
+
+.linked3:hover{
+    color: #ffa23f;
+    border-color: #ffffff;
+}
+
+.linked4:hover{
+    background-color: #ffffff00;
+    color: #000000;
+}
+
+::placeholder{
+    color:white;
+}
+
